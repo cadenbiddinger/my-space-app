@@ -1,3 +1,8 @@
+// class component that has a user object in state and is defaulted to null basically telling our application that there isnt a user currently logged in.
+
+
+
+
 import React from "react";
 import axios from "axios";
 
