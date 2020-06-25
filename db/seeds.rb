@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+posts = ['this is a post', 'this is also a post', 'another post']
+
+posts.each{|post| Post.create(name: post, description: "#{post}.")}
